@@ -59,16 +59,11 @@
 
                 <div class="main-menu" id="portfolio-perfect-collapse">
 
-                    <!-- TODO 18: NAVIGATION
-                         Keep only the sections you actually want.
-                         If you delete a section below, also delete its matching <li>. -->
                     <ul class="nav navbar-nav navbar-right">
                         <li class="page-scroll"><a href="#service">Home</a></li>
                         <li class="page-scroll"><a href="#portfolio">Research</a></li>
                         <li class="page-scroll"><a href="#publication">Publication</a></li>
                         <li class="page-scroll"><a href="#presentation">Presentation</a></li>
-                        <li class="page-scroll"><a href="#teaching">Teaching</a></li>
-                        <li class="page-scroll"><a href="#resources">Resources</a></li>
                     </ul><!-- /.navbar-nav -->
 
                 </div><!-- /.navbar-collapse -->
@@ -83,52 +78,64 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                       <h3 style="color:#68829E">Welcome</h3>
+                        <h3 style="color:#68829E">Welcome</h3>
                         <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+
                         <div id="content">
 
-                            <!-- TODO 1: PROFILE PHOTO
-                                 Upload your own photo to assets/img/profile.jpg
-                                 or change the file path below. -->
-                            <img src="assets/img/profile.jpg" width="30%" align="left"
-                                 style="max-width:18em; margin: 10px 30px 10px 10px;"
-                                 alt="[YOUR NAME]">
+                            <!-- TODO 1: Profile photo
+                                 Keep the file path below unchanged.
+                                 Upload your own image as assets/img/profile.jpg -->
+                            <img src="assets/img/profile.jpg"
+                                 style="
+                                    display:block;
+                                    width:220px;
+                                    max-width:70%;
+                                    height:auto;
+                                    margin:0 auto 40px auto;
+                                    border-radius:4px;
+                                 "
+                                 alt="Profile photo">
 
-                            <!-- TODO 2: SHORT BIO
-                                 Replace the text below with your name, current position,
-                                 department/university, and research interests. -->
+                            <!-- TODO 2: Short bio -->
                             <p align="left">
                                 Hi! I am <strong>[YOUR NAME]</strong>.
                                 I am [YOUR POSITION] in [YOUR DEPARTMENT] at
-                                <a style="color:#063852" href="[UNIVERSITY/DEPARTMENT URL]">[YOUR UNIVERSITY]</a>.
-                                My research interests include [RESEARCH INTEREST 1],
-                                [RESEARCH INTEREST 2], and [RESEARCH INTEREST 3].
+                                <a style="color:#063852"
+                                   href="[UNIVERSITY URL]"
+                                   target="_blank">[YOUR UNIVERSITY]</a>.
+                                My research interests include
+                                [RESEARCH INTEREST 1],
+                                [RESEARCH INTEREST 2],
+                                and [RESEARCH INTEREST 3].
                             </p>
 
-                            <!-- TODO 3: EDUCATION / CURRENT PROJECT
-                                 Optional. Delete this paragraph if you do not need it. -->
+                            <!-- TODO 3: Current research / PhD project -->
                             <p align="left">
-                                [Write 2–4 sentences about your education, PhD project,
-                                research background, supervisor, or current work.]
+                                [Write a short paragraph about your current research,
+                                PhD project, the languages or varieties you study,
+                                and the methods or broader questions that interest you.]
                             </p>
 
-                            <!-- TODO 4: OPTIONAL SECOND BIO PARAGRAPH
-                                 Delete if unnecessary. -->
+                            <!-- TODO 4: Optional additional paragraph.
+                                 Delete this whole <p>...</p> block if you do not need it. -->
                             <p align="left">
-                                [Optional additional information, such as collaborations,
-                                methodological interests, or current projects.]
+                                [Optional: Add another short paragraph about your
+                                research background, collaborations, methodological
+                                interests, or other academic interests.]
                             </p>
 
                             <!-- TODO 5: CV
-                                 Upload your CV, for example to assets/files/CV.pdf,
-                                 then change the path below if needed. -->
-                            <p>
+                                 Upload your CV as assets/files/CV.pdf -->
+                            <p style="text-align:center; margin-top:40px;">
                                 <a href="assets/files/CV.pdf"
                                    style="background-color:#1e1f26; color:#FCFDFE"
-                                   class="btn btn-fill" target="_blank">
-                                   Download my CV
+                                   class="btn btn-fill"
+                                   target="_blank">
+                                    Download my CV
                                 </a>
                             </p>
+
                         </div>
                     </div>
                 </div>
@@ -140,46 +147,20 @@
                 <h3 style="color:#68829E" class="text-center">Research</h3>
                 <img src="assets/img/lines.svg" class="img-lines" alt="lines">
 
-                <!-- TODO 6: RESEARCH OVERVIEW -->
-                <p align="left">
-                    [Write a short overview of your research: the broad questions you study,
-                    the populations/languages you work with, and the methods you use.]
-                </p>
+                <!-- TODO 5: Research overview -->
+                <p align="left">[Write a short overview of your research questions, languages/populations, and methods.]</p>
 
-                <!-- TODO 7: RESEARCH AREA 1 -->
-                <h4 align="left"
-                    style="font-family:sans-serif; color:#063852; font-size:20px; margin-top:30px">
-                    [Research Area 1]
-                </h4>
-                <div class="row">
-                    <p align="left">
-                        <!-- Optional image:
-                        <img src="assets/img/research1.png" width="95%" align="left"
-                             style="max-width:11em; margin:10px 30px 10px 10px;">
-                        -->
-                        [Describe this research area.]
-                    </p>
-                </div>
+                <!-- TODO 6: Research area 1 -->
+                <h4 align="left" style="font-family:sans-serif; color:#063852; font-size:20px; margin-top:30px">[Research Area 1]</h4>
+                <div class="row"><p align="left">[Describe this research area.]</p></div>
 
-                <!-- TODO 8: RESEARCH AREA 2 -->
-                <h4 align="left"
-                    style="font-family:sans-serif; color:#063852; font-size:20px; margin-top:30px">
-                    [Research Area 2]
-                </h4>
-                <div class="row">
-                    <p align="left">[Describe this research area.]</p>
-                </div>
+                <!-- TODO 7: Research area 2 -->
+                <h4 align="left" style="font-family:sans-serif; color:#063852; font-size:20px; margin-top:30px">[Research Area 2]</h4>
+                <div class="row"><p align="left">[Describe this research area.]</p></div>
 
-                <!-- TODO 9: RESEARCH AREA 3
-                     Copy this block if you need more research areas. -->
-                <h4 align="left"
-                    style="font-family:sans-serif; color:#063852; font-size:20px; margin-top:30px">
-                    [Research Area 3]
-                </h4>
-                <div class="row">
-                    <p align="left">[Describe this research area.]</p>
-                </div>
-
+                <!-- TODO 8: Research area 3 -->
+                <h4 align="left" style="font-family:sans-serif; color:#063852; font-size:20px; margin-top:30px">[Research Area 3]</h4>
+                <div class="row"><p align="left">[Describe this research area.]</p></div>
             </div>
         </section>
 
@@ -187,36 +168,16 @@
             <div align="center" class="container">
                 <h3 style="color:#68829E" class="text-center">Publications</h3>
                 <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-
                 <div style="margin-left:0px; margin-right:0px">
-                    <!-- TODO 10: JOURNAL PAPERS -->
-                    <h4 align="left"
-                        style="font-family:sans-serif; color:#063852; font-size:20px">
-                        Journal Papers
-                    </h4><br>
-
+                    <!-- TODO 9: Journal papers -->
+                    <h4 align="left" style="font-family:sans-serif; color:#063852; font-size:20px">Journal Papers</h4><br>
                     <ul>
-                        <!-- Copy one <li> block for each paper. -->
-                        <li align="left">
-                            [Authors] ([Year]). [Title].
-                            <i>[Journal]</i>, [volume/issue/pages].
-                            <a href="[PAPER URL]" style="color:#002366">[paper]</a>
-                        </li>
+                        <li align="left">[Authors] ([Year]). [Title]. <i>[Journal]</i>, [volume/issue/pages]. <a href="[PAPER URL]" style="color:#002366">[paper]</a></li>
                     </ul><br>
-
-                    <!-- TODO 11: CONFERENCE PAPERS
-                         Delete this subsection if you do not want to list proceedings papers. -->
-                    <h4 align="left"
-                        style="font-family:sans-serif; color:#063852; font-size:20px">
-                        Conference Papers
-                    </h4><br>
-
+                    <!-- TODO 10: Conference papers -->
+                    <h4 align="left" style="font-family:sans-serif; color:#063852; font-size:20px">Conference Papers</h4><br>
                     <ul>
-                        <li align="left">
-                            [Authors] ([Year]). [Title].
-                            In <i>[Conference / Proceedings]</i>.
-                            <a href="[PAPER URL]" style="color:#002366">[paper]</a>
-                        </li>
+                        <li align="left">[Authors] ([Year]). [Title]. In <i>[Conference / Proceedings]</i>. <a href="[PAPER URL]" style="color:#002366">[paper]</a></li>
                     </ul>
                 </div>
             </div>
@@ -226,93 +187,27 @@
             <div class="container" align="center">
                 <h3 style="color:#68829E" class="text-center">Presentations</h3>
                 <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-
-                <!-- TODO 12: PRESENTATIONS
-                     Add a year heading and list your talks/posters below.
-                     Copy the year block when needed. -->
-                <h4 align="left"
-                    style="font-family:sans-serif; color:#063852; font-size:20px; margin-top:30px">
-                    [Year]
-                </h4>
+                <!-- TODO 11: Presentations -->
+                <h4 align="left" style="font-family:sans-serif; color:#063852; font-size:20px; margin-top:30px">[Year]</h4>
                 <ul>
-                    <li align="left">
-                        [Authors]. [Presentation title].
-                        <i>[Conference / Institution]</i>, [City/Country]. ([talk/poster/invited talk])
-                    </li>
+                    <li align="left">[Authors]. [Presentation title]. <i>[Conference / Institution]</i>, [City/Country]. ([talk/poster/invited talk])</li>
                 </ul>
             </div>
         </section>
-
-        <section id="teaching" class="site-section section-services overlay text-center">
-            <div align="center" class="container">
-                <h3 style="color:#68829E" class="text-center">Teaching</h3>
-                <img src="assets/img/lines.svg" class="img-lines" alt="lines">
-
-                <!-- TODO 13: TEACHING
-                     Add your teaching experience here.
-                     If you do not want a Teaching section, delete this whole <section>...</section>
-                     and also delete the Teaching item from the navigation bar. -->
-                <table style="line-height:30px; max-width:90%;
-                              margin-left:5%; margin-right:5%; margin-bottom:0%;">
-                    <tr>
-                        <td colspan="2" style="color:#063852;">Experience</td>
-                    </tr>
-                    <tr>
-                        <td style="text-align:left; width:9em"><i>[Semester / Year]</i></td>
-                        <td>[Role] — [Course name], [Institution].</td>
-                    </tr>
-                </table>
-            </div>
-        </section>
-
-        <section id="resources" class="site-section section-counters text-center">
-            <div class="container">
-                <div class="col-md-12">
-                    <h4 style="color:white">Resources</h4>
-
-                    <!-- TODO 14: RESOURCES
-                         Add code, datasets, tutorials, OSF/GitHub projects, etc.
-                         If you do not need this section, delete this whole section
-                         and remove Resources from the navigation bar. -->
-                    <ul>
-                        <li style="color:white" align="left">
-                            [Resource description]:
-                            <a href="[RESOURCE URL]" style="color:white">[link]</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </section><!-- /.section-counters -->
-
     </main><!-- /#main -->
 
     <footer id="colophon" class="site-footer">
         <div class="container">
             <div class="row">
-
-                <!-- TODO 15: SOCIAL / ACADEMIC LINKS
-                     Add only the services you want to show.
-                     You can also delete this entire div. -->
+                <!-- TODO 12: Academic/social links -->
                 <div class="col-sm-4 col-xs-12">
-                    <a class="icon gplus-bg" href="[YOUR LINKEDIN URL]">
-                        <i class="icon-linkedin"></i>
-                    </a>
-                    <a class="icon linkedin-bg" href="[YOUR GOOGLE SCHOLAR URL]">
-                        <i class="icon-gplus"></i>
-                    </a>
+                    <a class="icon gplus-bg" href="[YOUR LINKEDIN URL]"><i class="icon-linkedin"></i></a>
+                    <a class="icon linkedin-bg" href="[YOUR GOOGLE SCHOLAR URL]"><i class="icon-gplus"></i></a>
                 </div>
-
-                <!-- TODO 16: LAST UPDATED DATE -->
-                <div class="col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-3">
-                    <p class="copyright">Last updated: [MONTH YEAR].</p>
-                </div>
-
-                <!-- TODO 17: YOUR NAME -->
-                <div class="col-sm-4 col-xs-3">
-                    <div class="text-right page-scroll">
-                        <h1 class="modal-title">[YOUR NAME]</h1>
-                    </div>
-                </div>
+                <!-- TODO 13: Last updated -->
+                <div class="col-sm-4 col-sm-offset-0 col-xs-6 col-xs-offset-3"><p class="copyright">Last updated: [MONTH YEAR].</p></div>
+                <!-- TODO 14: Your name -->
+                <div class="col-sm-4 col-xs-3"><div class="text-right page-scroll"><h1 class="modal-title">[YOUR NAME]</h1></div></div>
             </div>
         </div>
     </footer><!-- /#footer -->
