@@ -320,7 +320,7 @@ html, body {
 
 .section-services:before {
     content: '';
-    background: url(../img/GoBeach.jpg) no-repeat fixed center / cover;
+    background: url(../img/background.png) no-repeat fixed center / cover;
     width: 100%;
     height: 400px; 
     position: absolute;
