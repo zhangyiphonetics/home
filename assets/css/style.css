@@ -170,12 +170,24 @@ html, body {
     z-index: 5;
 }
 
+.site-logo {
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
 .site-logo img {
-    height: 45px;
-    width: auto;
-    max-width: 220px;
-    object-fit: contain;
-    padding-bottom: 2px;
+    width: 260px;
+    height: auto;
+    max-width: none;
+    max-height: none;
+    padding: 0;
+}
+
+@media (max-width: 768px) {
+    .site-logo img {
+        width: 180px;
+    }
 }
 
 /* Navigation */
