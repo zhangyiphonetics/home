@@ -290,7 +290,7 @@ html, body {
 .site-section h3 {
     font-size: 36px;
     margin: 0;
-    text-transform: uppercase;
+    text-transform: none;
 }
 
 .img-lines {
